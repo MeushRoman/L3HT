@@ -8,10 +8,10 @@ using ConsoleApp2.Model;
 namespace ConsoleApp2
 {
     class Program
-    {
+    {     
         static void Main(string[] args)
         {
-            Car c = new Car("Dizel");
+            Car c = new Car("Dizel","asd");
             Console.WriteLine(c.Info());
         }
     }
